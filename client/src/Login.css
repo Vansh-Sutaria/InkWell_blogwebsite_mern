@@ -1,0 +1,102 @@
+
+/* Login.css */
+/* Center the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(3, 2, 21); 
+    padding: 0 20px;
+  }
+  
+ 
+  .login-box {
+    background-color: white; /* White background for the box */
+    padding: 3rem; /* Padding for the content inside the box */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Limit the width */
+    text-align: left; /* Left-align text */
+  }
+  
+  /* Login header styling */
+  h1 {
+    margin-bottom: 2rem; /* Space below the header */
+    font-size: 2rem; /* Font size */
+    color: black; /* Header color */
+    text-align: center; /* Center the header */
+  }
+  
+  /* Input box container */
+  .input-box {
+    margin-bottom: 1.5rem; /* Space below each input */
+    width: 100%; /* Full width for inputs */
+  }
+  
+  /* Label styling */
+  .input-box label {
+    display: block; /* Block display */
+    margin-bottom: 0.5rem; /* Space below label */
+    font-size: 14px; /* Label font size */
+    color: #333; /* Label color */
+  }
+  
+/* Input field styling */
+.input-box input {
+    width: calc(100% - 16px); /* Adjust width to allow for padding */
+    padding: 0.75rem; /* Padding inside input */
+    border: 1px solid #ccc; /* Border around input */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    margin-left: 0; /* Ensure no extra left margin */
+    margin-right: 0; /* Ensure no extra right margin */
+    box-sizing: border-box; /* Ensure padding and border are included in the total width */
+  }
+  
+  /* Button styling */
+  .login-button {
+    background-color: black; /* Button background color */
+    color: white; /* Button text color */
+    padding: 0.75rem 2rem; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+    display: block; /* Block element */
+    margin: 0 auto; /* Center the button */
+    transition: background-color 0.3s ease; /* Transition effect */
+  }
+  
+  /* Button hover effect */
+  .login-button:hover {
+    background-color: #333; /* Darker background on hover */
+  }
+  
+/* Link container for forgot password and register */
+.links {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space out links evenly */
+    margin-top: 1rem; /* Space above links */
+    font-size: 13px; /* Font size */
+  }
+  
+  /* Link styling */
+  .links a {
+    color: orange; /* Link color */
+    text-decoration: none; /* No underline */
+    margin-right: 10px; /* Space between links */
+    font-size: 13px;
+  }
+  
+  /* Adjust 'Register Now' link style */
+  .links a:last-child {
+    color: orange; 
+  }
+  
+  /* Hover effect for links */
+  .links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

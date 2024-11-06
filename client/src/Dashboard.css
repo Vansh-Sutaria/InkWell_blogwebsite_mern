@@ -1,0 +1,99 @@
+
+/* Dashboard.css */
+.dashboard-container {
+    padding: 40px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .blogs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 blogs per row */
+    grid-gap: 50px; /* Increase space between blogs */
+  }
+  
+  .blog-card {
+    background-color: #fff; /* Make blog container white */
+    color: #000; /* Set text to black */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .blog-card:hover {
+    transform: scale(1.05); /* Enlarge the card slightly on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Add more shadow on hover */
+  }
+  
+  .blog-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .blog-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .blog-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .blog-author {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .blog-stats {
+    text-align: right;
+  }
+  
+  .blog-stats span {
+    display: block;
+  }
+  
+  .likes {
+    color: #e74c3c;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #1a1a2e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #333;
+  }
+  
+  .pagination button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+  }
+  
+  
