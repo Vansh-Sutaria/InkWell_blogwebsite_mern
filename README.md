@@ -14,7 +14,5 @@ This backend allows users to register, log in, and create blogs, with protected 
 - CORS-enabled for frontend (React app)  
 - MongoDB integration using Mongoose ODM  
 
----
 
-## Project Structure
 
